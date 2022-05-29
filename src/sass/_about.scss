@@ -49,18 +49,14 @@
   background-repeat: no-repeat;
   background-position: top center;
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
   }
 
   @media (min-width: 1200px) {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
     }
   }
@@ -92,6 +88,10 @@
   color: #907e82;
 }
 
+.about__production-text--p {
+  padding-bottom: 12px;
+}
+
 .about__btn {
   font-family: 'DM Sans';
   font-style: normal;
@@ -115,6 +115,8 @@
 
   padding-left: 37px;
   padding-right: 56px;
+
+  margin-top: 40px;
 
   width: 176px;
   height: 44px;

@@ -1,0 +1,95 @@
+.customer-reviews {
+  margin-top: 80px;
+  @media screen and (min-width: 1280px) {
+    margin-top: 120px;
+  }
+}
+
+.customer-img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customer-comment {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+  background-color: #fafafa;
+
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #e1e1e1;
+  text-decoration-style: solid;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+
+    /*  background-image: url(../images/icon-telegram.svg); */
+  }
+
+  margin-top: 32px;
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 16px;
+  }
+}
+.customer-review-decordots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.customer-decordots-item {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+
+  background-color: #c7133e;
+}
+
+.customer-author {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+
+  text-align: center;
+  margin-top: 16px;
+
+  color: #000000;
+}
+
+.swiper .swiper-pagination {
+  position: relative;
+  margin-top: 16px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #c7133e;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-image: url(../images/img-reviews/house.jpg);
+  border-radius: 0;
+}
