@@ -7,9 +7,23 @@
 @import './base/utils/utils';
 @import './base/var';
 @import './base/base';
-@import './header';
-@import './about';
 
+@import './visually';
+
+// @import './common';
+// palkaz: когда подключаю этот файл выдат ошибку
+
+@import './header';
+// @import './hero';
+@import './products';
+
+@import './about';
+@import './advantages';
 @import './gallery';
+// @import './customer-reviews';
+// @import './contacts';
+// @import './footer';
+
+// @import './mobile-menu';
 
 // @import './example';
