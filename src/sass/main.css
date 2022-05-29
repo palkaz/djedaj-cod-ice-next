@@ -173,5 +173,6 @@ ul {
 }
 
 .gallery {
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
