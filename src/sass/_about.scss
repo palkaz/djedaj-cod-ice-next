@@ -6,7 +6,10 @@
   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 85%;
+
+  @media screen and (max-width: 767.98px) {
+    background-position: center 85%;
+  }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
@@ -58,47 +61,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  //   background-position: center;
-
-  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
-  //   }
-  // }
-
-  // @media (min-width: 1200px) {
-  //   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-
-  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
-  //   }
-  // }
 }
-
-// .about__production {
-//   @media screen and (max-width: 767.98px) {
-//     background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     background-position: top center;
-
-//     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//       background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
-//     }
-//   }
-
-// @media (min-width: 1200px) {
-//   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-
-//   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
-//   }
-// }
-// }
 
 .about__production-text {
   font-family: 'DM Sans';
@@ -111,7 +74,7 @@
 
   margin-bottom: 40px;
 
-  min-width: 220px;
+  width: 220px;
 }
 
 .about__production-text--color {
@@ -123,7 +86,7 @@
 
   color: #907e82;
 
-  min-width: 220px;
+  width: 220px;
 }
 
 .about__production-text--p {
