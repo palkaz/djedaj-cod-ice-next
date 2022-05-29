@@ -37,32 +37,49 @@
   margin-bottom: 32px;
 }
 
-// .about__content {
-//   @media screen and (min-width: 768px) {
-//     display: flex;
-//   }
-// }
-
-.about__production {
-  background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+.about__content {
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 
-  @media (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
     }
   }
 
-  // @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-  //   display: none;
+  // @media (min-width: 1200px) {
+  //   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
+
+  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+  //   }
+  // }
+}
+
+.about__production {
+  @media screen and (max-width: 767.98px) {
+    background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+    }
+  }
+
+  // @media (min-width: 1200px) {
+  //   background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
+
+  //   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //     background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
+  //   }
   // }
 }
 
