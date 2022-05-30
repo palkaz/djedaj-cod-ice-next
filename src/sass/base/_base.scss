@@ -1,8 +1,11 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -10,10 +13,14 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
@@ -25,13 +32,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
 }
-ul {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
 }
 
 .button {
@@ -43,6 +50,16 @@ ul {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
