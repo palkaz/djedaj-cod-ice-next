@@ -125,11 +125,16 @@
     border-radius: 50%;
     border: none;
     
-    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus{
         background-color:#C7133E ;
         color: #FFFFFF;
+    }
+    &:hover .icon-arrow-right,
+    &:focus .icon-arrow-right{
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: #ffffff;  
     }
     }
 
@@ -241,7 +246,6 @@
         }
         }
         .icon-arrow-right{
-            transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
             fill: #C7133E;
             &:hover,
             &:focus{
