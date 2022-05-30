@@ -93,10 +93,16 @@
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 32px;
+
+    min-width: 334px;
   }
 
   @media screen and (min-width: 1280px) {
     gap: 140px;
+
+    align-items: center;
+
+    min-width: 463px;
   }
 }
 
@@ -105,7 +111,7 @@
     min-width: 336px;
   }
   @media screen and (min-width: 1280px) {
-    min-width: 500px;
+    min-width: 501px;
   }
 }
 
