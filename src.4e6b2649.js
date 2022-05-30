@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/icon/group4.png":[["group4.7d6937b6.png","I31P"],"I31P"],"./../images/products/home-pic1-mob-1x.png":[["home-pic1-mob-1x.f4396fc6.png","mGuN"],"mGuN"],"./../images/products/home-pic2-mob-1x.png":[["home-pic2-mob-1x.4850e9ca.png","jzXi"],"jzXi"],"./../images/products/home-pic3-mob-1x.png":[["home-pic3-mob-1x.e184589a.png","lhb7"],"lhb7"],"./../images/img-how-made/milk-bg-desk-1x.png":[["milk-bg-desk-1x.efedc651.png","YFa9"],"YFa9"],"./../images/img-how-made/milk-bg-desk-2x.png":[["milk-bg-desk-2x.d49044f9.png","NFPy"],"NFPy"],"./../images/img-reviews/house.jpg":[["house.e151a45d.jpg","t0dn"],"t0dn"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/djedaj-cod-ice-next/src.70bcb8b1.js.map
+//# sourceMappingURL=/djedaj-cod-ice-next/src.4e6b2649.js.map
