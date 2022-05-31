@@ -230,12 +230,6 @@
     fill: #d41443;
   }
 
-  .header__mobile-menu-btn.is-open .header__mobile-menu-icon {
-    position: absolute;
-    top: 0%;
-    right: 0;
-  }
-
   @media screen and (min-width: 1280px) {
     display: none;
   }
