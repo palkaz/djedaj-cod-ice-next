@@ -5,7 +5,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 40px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     padding-top: 120px;
   }
 }
@@ -22,7 +22,7 @@
   @media screen and (min-width: 768px) {
     padding-top: 0;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 60px;
   }
 }
@@ -35,7 +35,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: var(--accent-title-color);
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     flex-direction: column;
   }
@@ -45,14 +45,14 @@
     line-height: 1.17;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     display: flex;
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 1.15;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 30px;
     line-height: 34px;
   }
@@ -67,7 +67,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1279px) {
     display: flex;
     flex-direction: column;
   }
@@ -75,11 +75,11 @@
     font-size: 34px;
     line-height: 39px;
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     font-size: 48px;
     line-height: 55px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 58px;
     line-height: 66px;
   }
@@ -92,7 +92,7 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: flex-end;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     padding-top: 12px;
   }
 }
@@ -134,7 +134,7 @@
   @media screen and (min-width: 768px) {
     font-size: 14px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
   }
 }
@@ -150,7 +150,7 @@
   @media screen and (min-width: 768px) {
     font-size: 14px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
   }
 }
