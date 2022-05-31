@@ -1,5 +1,14 @@
 body {
   font-family: 'DM Sans', sans-serif;
+
+  // Modal window for about section
+  &.menu-open {
+    overflow: hidden;
+  }
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 .container {
