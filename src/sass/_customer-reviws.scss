@@ -125,4 +125,10 @@
 .swiper .swiper-pagination-bullet-active {
   background-image: url(../images/img-reviews/house.svg);
   border-radius: 0;
+  background-color: transparent;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 20%;
 }
