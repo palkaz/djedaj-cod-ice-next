@@ -104,9 +104,6 @@
     }
   }
 
-
-
-
 @media screen and (min-width:768px) {
   .header {
     width: 768px;
@@ -218,20 +215,10 @@
 }
 
 .nav {
-  //   // margin-left: 93px;
-
     @media screen and (max-width: 1279px) {
     display: none;
   }
-
-  //   @media screen and (min-width: 768px) {
-  //   margin-left: 88px;
-  // }
-
-  //   @media screen and (min-width: 1200px) {
-  //   margin-left: 93px;
-  // }
-  }
+}
 
   .nav {
     position: absolute;
@@ -267,11 +254,7 @@
     &:focus {
       color: #d41443;
     }
-
-    // .site-nav__link--current {
-    //   color: #D41443;
-
-    }
+}
   
 .site-nav__link--current {
 color: #D41443;
