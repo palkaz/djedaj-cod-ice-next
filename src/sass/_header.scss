@@ -141,11 +141,20 @@
   background-color: #e17992;
   z-index: 10;
 
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+
   @media screen and (max-width: 479px) {
     max-width: 479px;
   }
 
   @media screen and (min-width: 768px) {
+    max-width: 768px;
+    width: 33.3%;
+    height: 100vh;
+  }
+
+  @media screen and (min-width: 1280px) {
     display: none;
   }
 }
@@ -219,6 +228,12 @@
   &:hover > .mobile-menu__icon,
   &:focus > .mobile-menu__icon {
     fill: #d41443;
+  }
+
+  .header__mobile-menu-btn.is-open .header__mobile-menu-icon {
+    position: absolute;
+    top: 0%;
+    right: 0;
   }
 
   @media screen and (min-width: 1280px) {
