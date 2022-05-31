@@ -292,7 +292,53 @@
   margin-left: 12px;
 }
 
-.header-hero__circle {
+.nav {
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
+}
+
+.nav {
+  position: absolute;
+  left: 390px;
+  z-index: 2;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-inline-start: auto;
+}
+
+.site-nav__item + .site-nav__item {
+  margin-left: 35px;
+}
+
+.site-nav__link {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.31;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: #d41443;
+  }
+}
+
+.site-nav__link--current {
+  color: #d41443;
+}
+
+main .header-hero__circle {
   position: absolute;
   z-index: 1;
 
