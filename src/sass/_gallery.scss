@@ -17,18 +17,15 @@
     var(--main-bg-color) 45%,
     var(--text-accent-color) 65%
   );
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 /* gallery masonry приклад*/
 
 .gallery-masonry {
   display: grid;
-  grid-gap: 20px;
-  margin: 0 auto;
+  grid-gap: 7px;
   max-width: 600px;
-  padding: 10px 0;
+  padding-top: 20px;
 }
 
 .gallery-img {
