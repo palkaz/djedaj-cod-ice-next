@@ -4,18 +4,15 @@
     <h2 class="about__title">how it’s made?</h2>
     <div class="about__content">
       <div class="about__foto">
-          <img
-          srcset="../src/images/img-how-made/cow-mob-1x.png 280w,
-            ../src/images/img-how-made/cow-mob-2x.png 550w,
-            ../src/images/img-how-made/cow-tab-1x.png 336w,
-            ../src/images/img-how-made/cow-tab-2x.png 672w,
-            ../src/images/img-how-made/cow-desc-1x.png 5016w,
-            ../src/images/img-how-made/cow-desc-2x.png 1002w
-          "
-          src="../src/images/img-how-made/cow-mob-1x.png"
-          alt="foto"
-          sizes="(min-width: 1200px) 50vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw, 100vw"
-        />
+        <picture>
+          <source srcset="../src/images/img-how-made/cow-desc-1x.png 1x, ../src/images/img-how-made/cow-desc-2x.png 2x" media="(min-width: 1280px)">
+          <source srcset="../src/images/img-how-made/cow-tab-1x.png 1x, ../src/images/img-how-made/cow-tab-2x.png 2x" media="(min-width: 768px)">
+          <source srcset="../src/images/img-how-made/cow-mob-1x.png 1x, ../src/images/img-how-made/cow-mob-2x.png 2x" media="(min-width: 480px)">
+          
+          <img src="../src/images/img-how-made/cow-mob-1x.png" alt="foto">
+        </picture>
+
+          
       </div>
       <div class="about__production">
         <p class="about__production-text">
