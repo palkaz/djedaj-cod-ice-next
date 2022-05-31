@@ -17,11 +17,11 @@
   background-size: contain;
   background-repeat: no-repeat;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (min-width: 480px) and (max-width: 767.98px) {
     background-position: center 80%;
   }
 
-  @media screen and (max-width: 479.98px) {
+  @media screen and (min-width: 401px) and (max-width: 479.98px) {
     background-position: center 65%;
   }
 
