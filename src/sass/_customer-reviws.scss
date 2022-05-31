@@ -124,4 +124,10 @@
 }
 .swiper .swiper-pagination-bullet-active {
   border-radius: 0;
+  background-color: transparent;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 20%;
 }
