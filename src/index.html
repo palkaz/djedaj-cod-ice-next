@@ -15,9 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-
-    <link rel="stylesheet" href="./sass/main.scss" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
@@ -26,21 +25,50 @@
 
     <include src="./partials/products.html"></include>
     <include src="./partials/about.html"></include>
+    <include src="./partials/advantages.html"></include>
     <include src="./partials/gallery.html"></include>
-   
-
 
     <include src="./partials/customer-reviews.html"></include>
     <include src="./partials/contacts.html"></include>
-     <include src="./partials/footer.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/bacdropForAbout.html"></include>
 
     <!-- <include src="./partials/header.html"></include>
     <include src="./partials/example.html"></include> -->
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
+
     <script defer src="./js/mobile-menu.js"></script>    
     
     
+
+    <script type="module">
+      import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js';
+
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          dynamicBullets: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        slideToClickedSlide: true,
+        Autoheight: true,
+      });
+    </script>
+
+    <script src="../src/sass/modalForIce.js"></script>
+
   </body>
 </html>

@@ -7,9 +7,6 @@
 @import './base/utils/utils';
 @import './base/var';
 @import './base/base';
-
-@import './produts';
-
 @import './visually';
 
 // @import './common';
@@ -27,5 +24,7 @@
 @import './footer';
 
 // @import './mobile-menu';
-
 // @import './example';
+// import Swiper and modules styles
+/* @import '../../node_modules/swiper/swiper-bundle.css'; */
+@import './base/modalForIce';

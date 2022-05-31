@@ -1,4 +1,56 @@
 .gallery {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-bg-color) 39.5%,
+    var(--text-accent-color) 39.5%
+  );
+}
+
+.gallery--img {
   display: flex;
   justify-content: center;
+}
+
+.gallery-masonry--container {
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-bg-color) 45%,
+    var(--text-accent-color) 65%
+  );
+}
+
+/* gallery masonry приклад*/
+
+.gallery-masonry {
+  display: grid;
+  grid-gap: 7px;
+  max-width: 600px;
+  padding-top: 20px;
+}
+
+.gallery-img {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item-four {
+  grid-row: 2/5;
+}
+
+.item-five {
+  grid-row: 2/6;
+}
+
+.item-six {
+  grid-row: 2/4;
+}
+
+.item-seven {
+  grid-row: 5/6;
+}
+
+.item-eight {
+  grid-row: 4/6;
 }
