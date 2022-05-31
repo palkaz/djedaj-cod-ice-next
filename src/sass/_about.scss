@@ -18,6 +18,14 @@
   background-repeat: no-repeat;
 
   @media screen and (max-width: 767.98px) {
+    background-position: center 80%;
+  }
+
+  @media screen and (max-width: 479.98px) {
+    background-position: center 65%;
+  }
+
+  @media screen and (max-width: 400px) {
     background-position: center 70%;
   }
 
@@ -27,7 +35,7 @@
 
   @media (min-width: 1280px) {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-    background-position: center 70%;
+    background-position: center 75%;
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(../../src/images/img-how-made/milk-bg-desk-2x.png);
     }
@@ -93,25 +101,36 @@
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 32px;
-
-    min-width: 334px;
   }
 
   @media screen and (min-width: 1280px) {
     gap: 140px;
 
     align-items: center;
-
-    min-width: 463px;
   }
 }
 
 .about__foto {
   @media screen and (min-width: 768px) {
-    min-width: 336px;
+    width: 336px;
   }
+
   @media screen and (min-width: 1280px) {
-    min-width: 501px;
+    width: 501px;
+  }
+}
+
+.about__production {
+  @media screen and (max-width: 400px) {
+    width: 220px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 334px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 463px;
   }
 }
 
@@ -125,10 +144,6 @@
   color: #000000;
 
   margin-bottom: 40px;
-
-  @media screen and (max-width: 400px) {
-    width: 220px;
-  }
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -148,10 +163,6 @@
   line-height: 1.6;
 
   color: #907e82;
-
-  @media screen and (max-width: 400px) {
-    width: 220px;
-  }
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
