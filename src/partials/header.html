@@ -46,7 +46,7 @@
 
             <nav class="nav">
                 <ul class="site-nav list">
-                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="">Home</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--current"  href="">Home</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="">About us</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="">How it’s made?</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="">Our products</a></li>
@@ -55,21 +55,26 @@
             </nav>
 
             <div class="mobile-menu" data-menu>
-                <button class="btn__header check" type="button">
+                <ul class="mobile-menu__list list">
+                    <li class="mobile-menu__item--btn">
+                      <button class="mobile-menu__btn" type="button">
                     Buy now
                     <svg class="btn__icon" width="10px" height="10px">
                         <use class="icon__btn" href="../src/images/icon/symbol.svg#icon-vector"></use>
                     </svg>
-                </button>
+                </button>  
+                    </li>
+                </ul>
+                
                 
                 <ul class="mobile-menu__nav list">
                     <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link--current"
-                            href="./index.html">Home</a>
+                            href="#home">Home</a>
                     </li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="">About us</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href=" ">How it’s made?</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href=" ">Our products</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href=" ">Contact</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#About us">About us</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#How it’s made?">How it’s made?</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Our products">Our products</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#Contact">Contact</a></li>
                 </ul>
             </div>
 

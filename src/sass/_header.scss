@@ -120,9 +120,6 @@
   &:focus {
     color: #d41443;
   }
-
-  // .site-nav__link--current {
-  //   color: #D41443;
 }
 
 .site-nav__link--current {
@@ -135,11 +132,12 @@
   flex-direction: column;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   transform: translateX(100%);
-  width: 100%;
+  width: 250px;
   height: 100%;
-  padding: 48px 40px;
+  padding: 0;
+  padding-top: 60px;
   background-color: #e17992;
   z-index: 10;
 
@@ -154,8 +152,35 @@
 
 .mobile-menu.is-open {
   transform: translateX(0%);
+  .mobile-menu__link--current {
+    color: #d41443;
+  }
 }
 
+.mobile-menu__list {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.mobile-menu__btn {
+  align-items: center;
+  justify-content: center;
+
+  min-width: 186px;
+  height: 44px;
+  border: none;
+  border-radius: 22px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  background-color: #ffffff;
+  color: #d41443;
+
+  cursor: pointer;
+}
 .mobile-menu__item {
   width: 100%;
   border-bottom: 1px solid #e18298;
