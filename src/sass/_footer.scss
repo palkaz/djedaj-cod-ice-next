@@ -5,7 +5,7 @@
   padding-bottom: 20px;
 }
 
-.tests {
+.footer__container {
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
@@ -155,7 +155,7 @@
   }
 }
 
-.footer__contacts-span {
+.footer__contacts-list {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
