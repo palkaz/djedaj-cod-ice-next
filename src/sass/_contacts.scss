@@ -22,7 +22,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-bg-color);
+
+  background-image: linear-gradient(
+    to bottom,
+    var(--text-accent-color) 7%,
+    var(--main-bg-color) 93%
+  );
+
   @media screen and (max-width: 767px) {
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +73,7 @@
 .contacts-wrapper {
   @media screen and (min-width: 768px) {
     display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -93,7 +100,7 @@
   // font-weight: 500;
   max-width: 80px;
   // max-height: 16px;
-  padding: 6px 10px;
+  padding: 0px 10px;
   // display: inline-block;
   background: var(--icecoffee-bg-color);
   // border-radius: 6px;
