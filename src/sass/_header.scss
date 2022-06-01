@@ -17,14 +17,14 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    width: 768px;
+    max-width: 768px;
     min-height: 416px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    width: 1280px;
+    max-width: 1280px;
     min-height: 664px;
   }
 }
@@ -93,7 +93,6 @@
 .site-nav__link--current {
   color: #d41443;
 }
-// --mobile__menu--
 
 .mobile-menu {
   display: flex;
@@ -158,6 +157,7 @@
 
   cursor: pointer;
 }
+
 .mobile-menu__item {
   width: 100%;
   border-bottom: 1px solid #e18298;
@@ -402,14 +402,23 @@
 }
 
 .header-hero__button {
-  padding: 7px 16px;
+  padding: 7px 14px;
   border: transparent;
   border-radius: 20px;
+
+    font-size: 8px;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1280px) {
   .header-hero__button {
     padding: 11px 23px;
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
@@ -481,8 +490,6 @@
 }
 
 .header-hero__product-text {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 8px;
   line-height: 1, 5;
@@ -566,7 +573,13 @@
 }
 
 .header-hero__branches-item + .header-hero__branches-item {
-  margin-top: 16px;
+  margin-top: 17px;
+}
+
+@media screen and (min-width: 1280px) {
+  .header-hero__branches-item+.header-hero__branches-item {
+    margin-top: 18px;
+  }
 }
 
 .header-hero__branches-item {
@@ -594,8 +607,6 @@
 }
 
 .header-hero__branches-type {
-  font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
