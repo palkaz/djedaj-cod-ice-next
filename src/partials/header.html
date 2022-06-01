@@ -15,15 +15,13 @@
                 <ul class="site-nav list">
                     <li class="site-nav__item"><a class="site-nav__link site-nav__link--current" href="#home">Home</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="#about">About us</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="#how its made">How it’s made?</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="#our products">Our products</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#howitsmade">How it’s made?</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#ourproducts">Our products</a></li>
                     <li class="site-nav__item"><a class="site-nav__link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
-<!-- 
-            <div class="backdrop is-hidden" data-menu> -->
-             <div class="mobile-menu" data-menu>
+            <div class="mobile-menu js-menu-container" >
                 <ul class="mobile-menu__list list">
                     <li class="mobile-menu__item--btn">
                       <button class="mobile-menu__btn" type="button">
@@ -34,35 +32,49 @@
                 </button>  
                     </li>
                 </ul>
-                
-                
+                              
                 <ul class="mobile-menu__nav list">
                     <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link--current"
                             href="#home">Home</a>
                     </li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#about">About us</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#how its made">How it’s made?</a></li>
-                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#our products">Our products</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link .anchor-button-open" href="#about">About us</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#how-its-made">How it’s made?</a></li>
+                    <li class="mobile-menu__item"><a class="mobile-menu__link" href="#our-products">Our products</a></li>
                     <li class="mobile-menu__item"><a class="mobile-menu__link" href="#contact">Contact</a></li>
                 </ul>
-            </div>   
-            <!-- </div> -->
-            
-
-            <button class="header__mobile-menu-btn" type="button" data-menu-button aria-expanded="false">
-                <svg class="header__mobile-menu-icon" width="40" height="40" aria-label="mobile menu switcher">
-                    <use class="icon__open" href="../src/images/icon/symbol.svg#icon-Burger"></use>
-                    <use class="icon__close" href="../src/images/icon/symbol.svg#icon-close-burger"></use>
+                <button class="mobile__close--btn js-close-menu"  type="button">
+                 <!-- <svg class="" aria-label="mobile menu switcher">
+                
+                <use class="icon__close" href="../src/images/icon/symbol.svg#icon-close-burger"></use>
+                </svg> -->
+                <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                    <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
                 </svg>
-            </button>
+                </button>
+            </div>
+
+        
+              <button class="header__mobile-menu-btn js-open-menu" type="button" aria-expanded="false">
+              <svg class="header__mobile-menu-icon" width="20" height="20" aria-label="mobile menu switcher">
+                <use class="icon__open" href="../src/images/icon/symbol.svg#icon-Burger"></use>
+                <!-- <use class="icon__close" href="../src/images/icon/symbol.svg#icon-close-burger"></use> -->
+              </svg>
+              </button>
+
+
             <button class="btn__header" type="button">
-                Buy now
-                <svg class="btn__icon" width="10px" height="10px">
-                    <use class="icon__btn" href="../src/images/icon/symbol.svg#icon-vector"></use>
-                </svg>
-            </button>
-
+            Buy now
+            <svg class="btn__icon" width="10px" height="10px">
+                <use class="icon__btn" href="../src/images/icon/symbol.svg#icon-vector"></use>
+            </svg>
+            </button>    
+                               
             
+            
+            </div>
+           
 
         </div>
 
