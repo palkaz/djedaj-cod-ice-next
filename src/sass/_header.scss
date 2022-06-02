@@ -1,12 +1,16 @@
 /* ---------------hero --------------- */
 
+.header-wrap{
+  background-color: rgba(255, 184, 202, 1);
+}
+
 .header {
   position: relative;
-  background-color: rgba(255, 184, 202, 1);
   overflow: hidden;
   min-height: 502px;
   margin: 0 auto;
 }
+
 
 @media screen and (max-width: 767px) {
   .header {
@@ -91,7 +95,7 @@
 }
 
 .site-nav__link--current {
-  color: (--main-title-color);
+  color: var(--main-title-color);
 }
 
 .mobile-menu {
@@ -398,7 +402,7 @@
 }
 
 .header-hero__button {
-  padding: 7px 14px;
+  // padding: 7px 14px;
   border: transparent;
   border-radius: 20px;
 
@@ -412,7 +416,7 @@
 
 @media screen and (min-width: 1280px) {
   .header-hero__button {
-    padding: 11px 23px;
+    // padding: 11px 23px;
     font-size: 14px;
     line-height: 1.29;
   }
@@ -421,11 +425,19 @@
 .header-hero__button--red {
   color: #ffffff;
   background: #d41443;
+  &:hover,
+  &:focus {
+    background: #C7133E;
+  }
 }
 
 .header-hero__button--white {
   color: #d41443;
   background: #ffffff;
+  &:hover,
+  &:focus {
+          background: #ECEBEB;
+}
 }
 
 .header-hero__button + .header-hero__button {
@@ -437,6 +449,12 @@
     margin-left: 12px;
   }
 }
+
+.header-hero__item {
+  border: transparent;
+  border-radius: 20px;
+  padding: 11px 23px;
+} 
 
 @media screen and (max-width: 767px) {
   .header-hero__photo-jug {
@@ -558,13 +576,13 @@
 
 .header-hero__branches {
   margin-top: 16px;
-  margin-right: 6px;
+  padding-right: 32px;
 }
 
 @media screen and (min-width: 1280px) {
   .header-hero__branches {
     margin-top: 153px;
-    margin-right: 16px;
+    padding-right: 32px;
   }
 }
 
