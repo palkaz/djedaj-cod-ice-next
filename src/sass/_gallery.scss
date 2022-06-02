@@ -1,4 +1,5 @@
 .gallery {
+  padding: 40px 0;
   background-image: linear-gradient(
     to bottom,
     var(--main-bg-color) 39.5%,
@@ -12,6 +13,7 @@
 }
 
 .gallery-masonry--container {
+  padding-top: 40px;
   background-image: linear-gradient(
     to bottom,
     var(--main-bg-color) 45%,
@@ -25,7 +27,6 @@
   display: grid;
   grid-gap: 7px;
   max-width: 600px;
-  padding-top: 20px;
 }
 
 .gallery-img {

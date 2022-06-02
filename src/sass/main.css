@@ -909,6 +909,16 @@ a {
 }
 @media screen and (max-width: 767.98px) {
   .about {
+    background-position: center 80%;
+  }
+}
+@media screen and (max-width: 479.98px) {
+  .about {
+    background-position: center 65%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
     background-position: center 70%;
   }
 }
@@ -920,7 +930,7 @@ a {
 @media (min-width: 1280px) {
   .about {
     background-image: url(../../src/images/img-how-made/milk-bg-desk-1x.png);
-    background-position: center 70%;
+    background-position: center 75%;
   }
 }
 @media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
@@ -985,25 +995,39 @@ a {
   .about__content {
     display: flex;
     gap: 32px;
-    min-width: 334px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about__content {
     gap: 140px;
     align-items: center;
-    min-width: 463px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .about__foto {
-    min-width: 336px;
+    width: 336px;
   }
 }
 @media screen and (min-width: 1280px) {
   .about__foto {
-    min-width: 501px;
+    width: 501px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__production {
+    width: 220px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about__production {
+    width: 334px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about__production {
+    width: 463px;
   }
 }
 
@@ -1015,11 +1039,6 @@ a {
   line-height: 1.6;
   color: #000000;
   margin-bottom: 40px;
-}
-@media screen and (max-width: 400px) {
-  .about__production-text {
-    width: 220px;
-  }
 }
 @media screen and (min-width: 768px) {
   .about__production-text {
@@ -1040,11 +1059,6 @@ a {
   font-size: 12px;
   line-height: 1.6;
   color: #907e82;
-}
-@media screen and (max-width: 400px) {
-  .about__production-text--color {
-    width: 220px;
-  }
 }
 @media screen and (min-width: 768px) {
   .about__production-text--color {
@@ -1088,7 +1102,7 @@ a {
 }
 
 .advantages {
-  background: #FFF5F6;
+  background: #fff5f6;
 }
 
 .advantages__list {
@@ -1099,29 +1113,22 @@ a {
   .advantages__list {
     flex-direction: column;
     text-align: left;
-    padding-left: 20px;
-    padding-top: 45px;
-    padding-bottom: 59px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .advantages__list {
-    padding-left: 36px;
     padding-top: 66px;
     padding-bottom: 140px;
   }
-  .advantages__list :not(last-child) {
-    padding-right: 60px;
-  }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .advantages__list {
-    padding-left: 115px;
-    padding-top: 39px;
-    padding-bottom: 139px;
-  }
-  .advantages__list :not(last-child) {
-    padding-right: 30px;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
 
@@ -1133,7 +1140,22 @@ a {
   line-height: 1.13;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #D41443;
+  color: #d41443;
+}
+@media screen and (max-width: 767px) {
+  .advantages__header {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .advantages__header {
+    margin-bottom: 13px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages__header {
+    margin-bottom: 16px;
+  }
 }
 
 .advantages__text {
@@ -1144,7 +1166,29 @@ a {
   line-height: 1.7;
   color: #000000;
 }
+@media screen and (max-width: 767px) {
+  .advantages__text {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages__text {
+    width: 288px;
+  }
+}
 
+.advantages__item {
+  margin-bottom: 32px;
+}
+.advantages__item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__img {
+    margin-bottom: 16px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .advantages__img {
     margin-bottom: 36px;
@@ -1157,6 +1201,7 @@ a {
 }
 
 .gallery {
+  padding: 40px 0;
   background-image: linear-gradient(to bottom, var(--main-bg-color) 39.5%, var(--text-accent-color) 39.5%);
 }
 
@@ -1166,6 +1211,7 @@ a {
 }
 
 .gallery-masonry--container {
+  padding-top: 40px;
   background-image: linear-gradient(to bottom, var(--main-bg-color) 45%, var(--text-accent-color) 65%);
 }
 
@@ -1174,7 +1220,6 @@ a {
   display: grid;
   grid-gap: 7px;
   max-width: 600px;
-  padding-top: 20px;
 }
 
 .gallery-img {
@@ -1325,6 +1370,12 @@ a {
 .swiper .swiper-pagination-bullet-active {
   background-image: url(../images/img-reviews/house.svg);
   border-radius: 0;
+  background-color: transparent;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 20%;
 }
 
 @media screen and (min-width: 1200px) {
