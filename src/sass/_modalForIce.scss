@@ -107,8 +107,14 @@
   color: rebeccapurple;
 }
 
-.modal__text {
-  color: white;
+.modal__text__item::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
+}
+
+.modal__text__list {
+  font-style: italic;
 }
 
 .modal__form {
@@ -117,9 +123,10 @@
 
   border-radius: 8px;
 
-  padding: 40px;
+  padding: 60px;
 
-  background-image: url(../images/img-how-made/Scoops.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ffb8ca;
+  // background-image: url(../images/img-how-made/Scoops.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
