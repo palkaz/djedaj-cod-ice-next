@@ -1,4 +1,12 @@
 .gallery {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   background-image: linear-gradient(
     to bottom,
     var(--main-bg-color) 39.5%,
@@ -20,6 +28,16 @@
 }
 
 /* gallery masonry приклад*/
+
+.gallery-masonry--container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .gallery-masonry {
   display: grid;
